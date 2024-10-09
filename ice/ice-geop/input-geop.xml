@@ -1,0 +1,33 @@
+<!-- safe_stride is the frequency at which i-PI makes internal snapshots for restarting -->
+<simulation verbosity='medium' threading='false' safe_stride='10'>
+    <ffsocket mode='unix' name='driver' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+         <address> driver </address>
+   </ffsocket>
+   <total_steps>200000</total_steps>
+   <output prefix='ice-geop'>
+      <trajectory stride='1' filename='pos' format='ase'> positions </trajectory>
+      <trajectory stride='1' filename='for' format='xyz'> forces </trajectory>
+      <properties stride='1'> [ step, time, conserved, temperature{kelvin}, kinetic_md, potential, pressure_md ] </properties>
+   </output>
+   <prng>
+      <seed>32123</seed>
+   </prng>
+   <system>
+      <forces> 
+          <force forcefield='driver'></force>
+      </forces>
+      <initialize nbeads='1'>
+        <file mode='ase'> init.xyz </file>
+      </initialize>
+      <motion mode='minimize'>
+        <optimizer mode='lbfgs'>
+          <tolerances>
+            <energy> 1e-7 </energy>
+            <position> 1e-3 </position>
+            <force> 2e-4 </force>
+          </tolerances>
+        </optimizer>
+      </motion>
+  </system>
+</simulation>

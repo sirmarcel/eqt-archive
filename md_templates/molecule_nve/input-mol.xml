@@ -1,0 +1,35 @@
+<!-- safe_stride is the frequency at which i-PI makes internal snapshots for restarting -->
+<simulation verbosity='medium' threading='false' safe_stride='10'>
+    <ffsocket mode='unix' name='driver' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+         <address> driver </address>
+   </ffsocket>
+   <total_steps>1000</total_steps>
+   <output prefix='nve-mol'>
+      <trajectory stride='1' filename='pos' format='ase'> positions </trajectory>
+      <trajectory stride='1' filename='mom' format='xyz'> momenta </trajectory>
+      <trajectory stride='1' filename='for' format='xyz'> forces </trajectory>
+      <properties stride='1'> [ step, time, conserved, temperature{kelvin}, kinetic_md, potential, pressure_md ] </properties>
+   </output>
+   <prng>
+      <seed>32123</seed>
+   </prng>
+   <system>
+      <forces> 
+          <force forcefield='driver'></force>
+      </forces>
+      <initialize nbeads='1'>
+        <file mode='ase'> init-mol.xyz </file>
+        <velocities mode='thermal' units='kelvin'> 300 </velocities>
+      </initialize>
+      <ensemble>
+         <temperature units='kelvin'> 300 </temperature>
+      </ensemble>
+      <motion mode='dynamics'>
+        <fixcom> True </fixcom>
+        <dynamics mode='nve'>
+            <timestep units='femtosecond'> 0.5 </timestep>
+        </dynamics>
+      </motion>
+  </system>
+</simulation>

@@ -1,0 +1,9 @@
+device=cuda
+i-pi replay_test.xml &> log.ipi & sleep 2
+ i-pi-py_driver  -m pet -a 128.178.114.174 -p 15600 -o "../model,init.xyz,device=${device},checkpoint=model" &> log.pet & 
+ i-pi-py_driver  -m pet -a 128.178.114.174 -p 15601 -o "../model,init.xyz,device=${device},checkpoint=model,inversions=True" &> log.pet-i &
+ i-pi-py_driver  -m pet -a 128.178.114.174 -p 15602 -o "../model,init.xyz,device=${device},checkpoint=model,quadrature_order=2,inversions=False" &> log.pet-2 &
+ i-pi-py_driver  -m pet -a 128.178.114.174 -p 15603 -o "../model,init.xyz,device=${device},checkpoint=model,quadrature_order=2,inversions=True" &> log.pet-2i &
+ i-pi-py_driver  -m pet -a 128.178.114.174 -p 15604 -o "../model,init.xyz,device=${device},checkpoint=model,quadrature_order=3,inversions=False" &> log.pet-3 &
+ i-pi-py_driver  -m pet -a 128.178.114.174 -p 15605 -o "../model,init.xyz,device=${device},checkpoint=model,quadrature_order=3,inversions=True" &> log.pet-3i &
+wait 

@@ -1,0 +1,1535 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 3.0.0-alpha  -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # Initializing system object 
+ # Initializing simulation object 
+ # Initializer (stage 1) parsing positions object.
+ # Initializing from file init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units ase and cell units ase
+ # Initializer (stage 1) parsing masses object.
+ # Initializing from file init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units ase and cell units ase
+ # Initializer (stage 1) parsing labels object.
+ # Initializing from file init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units ase and cell units ase
+ # Initializer (stage 1) parsing cell object.
+ # Initializing from file init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units ase and cell units ase
+ # Initializing from file init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units ase and cell units ase
+ !W! Momenta not specified in initialize. Will start with zero velocity if they are not specified in beads.
+ # Binding the forces 
+ # Initializer (stage 2) parsing positions object.
+ # Initializer (stage 2) parsing masses object.
+ # Initializer (stage 2) parsing labels object.
+ # Initializer (stage 2) parsing cell object.
+Created inet socket with address 128.178.114.174 and port number 15600
+ @ForceField: Starting the polling thread main loop.
+Created inet socket with address 128.178.114.174 and port number 15601
+ @ForceField: Starting the polling thread main loop.
+Created inet socket with address 128.178.114.174 and port number 15602
+ @ForceField: Starting the polling thread main loop.
+Created inet socket with address 128.178.114.174 and port number 15603
+ @ForceField: Starting the polling thread main loop.
+Created inet socket with address 128.178.114.174 and port number 15604
+ @ForceField: Starting the polling thread main loop.
+Created inet socket with address 128.178.114.174 and port number 15605
+ @ForceField: Starting the polling thread main loop.
+Backup performed: test-multi.pos_0.extxyz -> #test-multi.pos_0.extxyz#0#
+Backup performed: test-multi.for_0.extxyz -> #test-multi.for_0.extxyz#0#
+Backup performed: test-multi.out -> #test-multi.out#0#
+Backup performed: test-multi.delta -> #test-multi.delta#0#
+Backup performed: test-multi.f-aug-i.extxyz -> #test-multi.f-aug-i.extxyz#0#
+Backup performed: test-multi.f-aug-2.extxyz -> #test-multi.f-aug-2.extxyz#0#
+Backup performed: test-multi.f-aug-2i.extxyz -> #test-multi.f-aug-2i.extxyz#0#
+Backup performed: test-multi.f-aug-3.extxyz -> #test-multi.f-aug-3.extxyz#0#
+Backup performed: test-multi.f-aug-3i.extxyz -> #test-multi.f-aug-3i.extxyz#0#
+ # i-PI loaded input file:  replay.xml
+ @SOCKET:   Client asked for connection from ('128.178.114.174', 44552). Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET: 24/06/25-00:48:55 Assigning [ none] request id    1 to client with last-id None (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET:   Client asked for connection from ('128.178.114.163', 48500). Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET: 24/06/25-00:49:00 Assigning [ none] request id    2 to client with last-id None (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET:   Client asked for connection from ('128.178.114.174', 53476). Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET: 24/06/25-00:49:03 Assigning [ none] request id    0 to client with last-id None (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET:   Client asked for connection from ('128.178.242.211', 39514). Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET:   Client asked for connection from ('128.178.242.211', 37130). Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET:   Client asked for connection from ('128.178.242.211', 41080). Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET: 24/06/25-00:49:17 Assigning [ none] request id    4 to client with last-id None (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:49:17 Assigning [ none] request id    3 to client with last-id None (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:49:17 Assigning [ none] request id    5 to client with last-id None (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-00:50:10 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:50:10 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:50:10 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:50:10 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:50:10 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:50:10 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-00:51:02 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:51:02 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:51:02 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:51:02 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:51:02 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:51:02 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-00:51:54 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:51:54 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:51:54 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:51:54 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:51:54 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:51:54 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step       0. t/step: 1.04261e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-00:52:46 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:52:46 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:52:46 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:52:46 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:53:38 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:53:38 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:53:38 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:53:38 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:53:38 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:53:38 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step       1. t/step: 1.03397e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-00:54:29 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:54:29 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:54:29 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:54:29 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:54:29 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:54:29 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-00:55:19 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:55:19 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:55:19 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:55:19 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:55:19 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-00:55:19 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ # Average timings at MD step       2. t/step: 9.95387e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-00:56:09 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:56:09 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:56:09 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:56:09 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:56:09 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:56:09 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-00:57:03 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:57:03 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:57:03 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:57:03 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-00:57:03 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:57:03 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ # Average timings at MD step       3. t/step: 1.07882e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-00:57:57 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:57:57 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:57:57 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:57:57 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:57:57 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:57:57 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-00:58:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:58:49 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:58:49 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:58:49 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:58:49 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:58:49 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step       4. t/step: 1.03921e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-00:59:41 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-00:59:41 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-00:59:41 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-00:59:41 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-00:59:41 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-00:59:41 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:00:28 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:00:28 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:00:28 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:00:28 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:00:28 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:00:28 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ # Average timings at MD step       5. t/step: 9.57666e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:01:17 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+                                                                                                                                                                                                                                                                   @SOCKET: 24/06/25-01:01:17 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:01:17 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:01:17 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:01:17 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:01:17 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:02:10 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:02:10 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:02:10 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:02:10 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:02:10 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:02:10 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step       6. t/step: 1.07682e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:03:04 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:03:04 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:03:04 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:03:04 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:03:04 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:03:04 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:03:56 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:03:56 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:03:56 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:03:56 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:03:56 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:03:56 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step       7. t/step: 1.03679e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:04:48 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:04:48 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:04:48 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:04:48 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:04:48 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:04:48 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:05:40 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:05:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:05:40 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:05:40 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:05:40 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:05:40 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step       8. t/step: 1.03668e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:06:32 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:06:32 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:06:32 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:06:32 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:06:32 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:06:32 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:07:23 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:07:23 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:07:23 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:07:23 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:07:23 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:07:23 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step       9. t/step: 1.03257e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:08:15 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:08:15 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:08:15 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:08:15 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:08:15 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:08:15 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:09:07 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:09:07 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:09:07 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:09:07 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:09:07 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:09:07 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      10. t/step: 1.03573e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:09:58 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:09:58 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:09:58 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:09:58 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:09:58 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:09:58 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:10:52 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:10:52 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:10:52 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:10:52 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:10:52 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:10:52 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      11. t/step: 1.07592e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:11:46 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:11:46 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:11:46 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:11:46 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:11:46 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:11:46 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:12:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:12:40 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:12:40 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:12:40 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:12:40 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:12:40 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      12. t/step: 1.07831e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:13:34 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:13:34 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:13:34 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:13:34 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:13:34 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:13:34 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:14:28 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:14:28 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:14:28 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:14:28 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:14:28 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:14:28 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      13. t/step: 1.07622e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:15:21 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:15:21 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:15:21 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:15:21 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:15:21 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:15:21 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:16:09 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:16:09 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:16:09 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:16:09 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:16:09 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:16:09 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      14. t/step: 9.57055e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:16:57 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:16:57 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:16:57 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:16:57 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:16:57 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:16:57 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:17:47 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:17:47 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:17:47 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:17:47 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:17:47 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:17:47 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      15. t/step: 9.97977e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:18:37 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:18:37 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:18:37 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:18:37 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:18:37 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:18:37 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:19:29 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:19:29 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:19:29 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:19:29 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:19:29 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:19:29 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      16. t/step: 1.03378e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:20:20 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:20:20 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:20:20 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:20:20 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:20:20 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:20:20 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:21:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:21:12 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:21:12 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:21:12 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:21:12 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:21:12 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      17. t/step: 1.03626e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:22:04 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:22:04 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:22:04 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:22:04 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:22:04 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:22:04 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ @SOCKET: 24/06/25-01:22:54 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:22:54 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:22:54 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:22:54 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:22:54 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:22:54 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ # Average timings at MD step      18. t/step: 9.98868e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-01:23:44 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-01:23:44 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-01:23:44 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-01:23:44 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-01:23:44 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ @SOCKET: 24/06/25-01:23:44 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 41080))
+ !W!  @SOCKET:   Inconsistent client state in dispatch thread! (III)
+ !W!  @SOCKET:   Client ('128.178.242.211', 41080) died or got unresponsive(C). Removing from the list.
+ @SOCKET:   Client asked for connection from ('128.178.242.211', 50956). Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET: 24/06/25-07:55:23 Assigning [ none] request id    5 to client with last-id None (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-07:55:55 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-07:55:55 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-07:55:55 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 37130))
+ @SOCKET: 24/06/25-07:55:55 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-07:55:55 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 39514))
+ !W!  @SOCKET:   Inconsistent client state in dispatch thread! (II)
+ !W!  @SOCKET:   Client ('128.178.242.211', 37130) died or got unresponsive(C). Removing from the list.
+ @SOCKET:   Client asked for connection from ('128.178.242.211', 48894). Now hand-shaking.
+ !W!  @SOCKET:   Inconsistent client state in dispatch thread! (II)
+ @SOCKET:   Client asked for connection from ('128.178.242.211', 33942). Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET: 24/06/25-07:55:55 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET: 24/06/25-07:55:56 Assigning [ none] request id    3 to client with last-id None (  0/  1 : ('128.178.242.211', 48894))
+ !W!  @SOCKET:   Client ('128.178.242.211', 39514) died or got unresponsive(C). Removing from the list.
+ @SOCKET: 24/06/25-07:55:56 Assigning [ none] request id    4 to client with last-id None (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      19. t/step: 2.35904e+04
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-07:56:54 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-07:56:54 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-07:56:54 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-07:56:54 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-07:56:54 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-07:56:54 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-07:57:46 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-07:57:46 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-07:57:46 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-07:57:46 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-07:57:46 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-07:57:46 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ # Average timings at MD step      20. t/step: 1.03408e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-07:58:38 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-07:58:38 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-07:58:38 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-07:58:38 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-07:58:38 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-07:58:38 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-07:59:31 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-07:59:31 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-07:59:31 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-07:59:31 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-07:59:31 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-07:59:31 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      21. t/step: 1.07730e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:00:25 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:00:25 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:00:25 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:00:25 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:00:25 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:00:25 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:01:19 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:01:19 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:01:19 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:01:19 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:01:19 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:01:19 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      22. t/step: 1.07466e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:02:13 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:02:13 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:02:13 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:02:13 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:02:13 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:02:13 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:03:09 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:03:09 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:03:09 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:03:09 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:03:09 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:03:09 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      23. t/step: 1.11434e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:04:04 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:04:04 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:04:04 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:04:04 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:04:04 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:04:04 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:05:00 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:05:00 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:05:00 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:05:00 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:05:00 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:05:00 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ # Average timings at MD step      24. t/step: 1.11453e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:05:56 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:05:56 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:05:56 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:05:56 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:05:56 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:05:56 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:06:45 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:06:45 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:06:45 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:06:45 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:06:45 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:06:45 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      25. t/step: 9.97314e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:07:35 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:07:35 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:07:35 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:07:35 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:07:35 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:07:35 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:08:29 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:08:29 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:08:29 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:08:29 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:08:29 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:08:29 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      26. t/step: 1.07750e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:09:23 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:09:23 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:09:23 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:09:23 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:09:23 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:09:23 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:10:15 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:10:15 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:10:15 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:10:15 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:10:15 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:10:15 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      27. t/step: 1.03696e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:11:07 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:11:07 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:11:07 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:11:07 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:11:07 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:11:07 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:11:58 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:11:58 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:11:58 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:11:58 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:11:58 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:11:58 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      28. t/step: 1.03088e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:12:50 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:12:50 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:12:50 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:12:50 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:12:50 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:12:50 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:13:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ # Average timings at MD step      29. t/step: 9.98566e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:14:30 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:14:30 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:14:30 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:14:30 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:14:30 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:14:30 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:15:24 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:15:24 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:15:24 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:15:24 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:15:24 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:15:24 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      30. t/step: 1.07906e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:16:18 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:16:18 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:16:18 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:16:18 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:16:18 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:16:18 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:17:07 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:17:07 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:17:07 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:17:07 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:17:07 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:17:07 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      31. t/step: 9.97364e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:17:58 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:17:58 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:17:58 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:17:58 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:17:58 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:17:58 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:18:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:18:49 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:18:49 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:18:49 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:18:49 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:18:49 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      32. t/step: 1.03626e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:19:41 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:19:41 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:19:41 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:19:41 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:19:41 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:19:41 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:20:33 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:20:33 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:20:33 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:20:33 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:20:33 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:20:33 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      33. t/step: 1.03124e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:21:24 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:21:24 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:21:24 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:21:24 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      @SOCKET: 24/06/25-08:21:24 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:21:24 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:22:16 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:22:16 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:22:16 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:22:16 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:22:16 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:22:16 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      34. t/step: 1.03416e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:23:08 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:23:08 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:23:08 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:23:08 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:23:08 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:23:08 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:23:57 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:23:57 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:23:57 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:23:57 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:23:57 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:23:57 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      35. t/step: 9.94706e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:24:47 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:24:47 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:24:47 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:24:47 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:24:47 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:24:47 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:25:35 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:25:35 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:25:35 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:25:35 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:25:35 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:25:35 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      36. t/step: 9.52655e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:26:22 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:26:22 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:26:22 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:26:22 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:26:22 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:26:22 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:27:14 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:27:14 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:27:14 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:27:14 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:27:14 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:27:14 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      37. t/step: 1.03264e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:28:06 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:28:06 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:28:06 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:28:06 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:28:06 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:28:06 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:28:57 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:28:57 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:28:57 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:28:57 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:28:57 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:28:57 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ # Average timings at MD step      38. t/step: 1.03520e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:29:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:29:49 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:29:49 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:29:49 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:29:49 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:29:49 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:30:41 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:30:41 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:30:41 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:30:41 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:30:41 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:30:41 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ # Average timings at MD step      39. t/step: 1.03508e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:31:33 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:31:33 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:31:33 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:31:33 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:31:33 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:31:33 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:32:22 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:32:22 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:32:22 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:32:22 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:32:22 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:32:22 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      40. t/step: 9.96824e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:33:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:33:12 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:33:12 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:33:12 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:33:12 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:33:12 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:34:08 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:34:08 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:34:08 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:34:08 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:34:08 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:34:08 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      41. t/step: 1.11597e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:35:04 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:35:04 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:35:04 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:35:04 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:35:04 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:35:04 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:35:52 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:35:52 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:35:52 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:35:52 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:35:52 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:35:52 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      42. t/step: 9.54729e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:36:39 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:36:39 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:36:39 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:36:39 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:36:39 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:36:39 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:37:33 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:37:33 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:37:33 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:37:33 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:37:33 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:37:33 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      43. t/step: 1.07488e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:38:27 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:38:27 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:38:27 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:38:27 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:38:27 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:38:27 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:39:21 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:39:21 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:39:21 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:39:21 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:39:21 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:39:21 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      44. t/step: 1.07700e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:40:15 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:40:15 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:40:15 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:40:15 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:40:15 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:40:15 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:41:06 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:41:06 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:41:06 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:41:06 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:41:06 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:41:06 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      45. t/step: 1.03486e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:41:58 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:41:58 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:41:58 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:41:58 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:41:58 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:41:58 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:42:50 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:42:50 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:42:50 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:42:50 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:42:50 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:42:50 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      46. t/step: 1.03390e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:43:42 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:43:42 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:43:42 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:43:42 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:43:42 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:43:42 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:44:33 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:44:33 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:44:33 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:44:33 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:44:33 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:44:33 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      47. t/step: 1.03437e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:45:25 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:45:25 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:45:25 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:45:25 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:45:25 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:45:25 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:46:18 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:46:18 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:46:18 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:46:18 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:46:19 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:46:19 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      48. t/step: 1.07376e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:47:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:47:12 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:47:12 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:47:12 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:47:12 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:47:12 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:48:04 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:48:04 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:48:04 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:48:04 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:48:04 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:48:04 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      49. t/step: 1.03507e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:48:56 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:48:56 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:48:56 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:48:56 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:48:56 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:48:56 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:49:47 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:49:47 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:49:47 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:49:47 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:49:47 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:49:47 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      50. t/step: 1.03671e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:50:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:50:40 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:50:40 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:50:40 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:50:40 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:50:40 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:51:29 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:51:29 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:51:29 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:51:29 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:51:29 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:51:29 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      51. t/step: 9.95669e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:52:19 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:52:19 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:52:19 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:52:19 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:52:19 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:52:19 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:53:11 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:53:11 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:53:11 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:53:11 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:53:11 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:53:11 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      52. t/step: 1.03371e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:54:02 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:54:02 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:54:02 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:54:02 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:54:02 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:54:02 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:54:52 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:54:52 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:54:52 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:54:52 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:54:52 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      53. t/step: 9.96291e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:55:42 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:55:42 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:55:42 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:55:42 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:55:42 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:55:42 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:56:36 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:56:36 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:56:36 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:56:36 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:56:36 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:56:36 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      54. t/step: 1.07512e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:57:30 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:57:30 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:57:30 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:57:30 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:57:30 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-08:57:30 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:58:25 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:58:25 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:58:25 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:58:25 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:58:25 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:58:25 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      55. t/step: 1.11676e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-08:59:21 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-08:59:21 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-08:59:21 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-08:59:21 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-08:59:21 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-08:59:21 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:00:20 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:00:20 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:00:20 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:00:20 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:00:20 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:00:20 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      56. t/step: 1.16730e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:01:18 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:01:18 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:01:18 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:01:18 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:01:18 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:01:18 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:02:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:02:12 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:02:12 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:02:12 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:02:12 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:02:12 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      57. t/step: 1.07600e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:03:06 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:03:06 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:03:06 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:03:06 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:03:06 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:03:06 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:03:59 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+                                                                                                                                  @SOCKET: 24/06/25-09:03:59 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:03:59 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:03:59 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:03:59 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:03:59 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ # Average timings at MD step      58. t/step: 1.07687e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:04:53 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:04:53 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:04:53 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:04:53 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:04:53 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:04:53 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:05:45 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:05:45 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:05:45 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:05:45 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:05:45 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:05:45 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      59. t/step: 1.03307e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:06:37 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:06:37 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:06:37 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:06:37 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:06:37 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:06:37 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:07:32 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:07:32 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:07:32 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:07:32 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:07:32 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:07:32 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      60. t/step: 1.11868e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:08:28 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:08:28 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:08:28 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:08:28 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:08:28 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:08:28 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:09:20 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:09:20 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:09:20 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:09:20 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:09:20 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:09:20 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      61. t/step: 1.03503e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:10:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:10:12 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:10:12 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:10:12 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:10:12 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:10:12 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:11:03 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:11:03 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:11:04 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:11:04 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:11:04 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:11:04 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      62. t/step: 1.03353e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:11:55 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:11:55 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:11:55 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:11:55 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:11:55 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:11:55 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:12:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:12:49 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:12:49 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:12:49 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:12:49 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:12:49 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      63. t/step: 1.07741e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:13:43 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:13:43 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:13:43 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:13:43 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:13:43 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:13:43 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:14:34 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:14:34 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:14:34 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:14:34 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:14:34 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:14:34 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      64. t/step: 1.02994e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:15:26 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:15:26 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:15:26 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:15:26 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:15:26 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:15:26 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:16:18 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:16:18 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:16:18 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:16:18 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:16:18 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:16:18 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      65. t/step: 1.03417e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:17:09 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:17:09 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:17:09 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:17:09 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:17:09 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:17:09 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:18:03 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:18:03 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:18:03 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:18:03 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:18:03 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:18:03 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      66. t/step: 1.07625e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:18:57 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:18:57 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:18:57 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:18:57 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:18:57 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:18:57 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:19:53 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:19:53 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:19:53 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:19:53 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:19:53 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:19:53 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      67. t/step: 1.11366e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:20:48 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:20:48 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:20:48 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:20:48 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:20:48 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:20:48 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:21:38 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:21:38 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:21:38 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:21:38 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:21:38 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:21:38 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      68. t/step: 9.91525e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:22:28 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:22:28 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:22:28 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:22:28 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:22:28 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:22:28 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:23:23 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:23:23 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:23:23 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:23:23 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:23:23 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:23:23 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      69. t/step: 1.11723e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:24:19 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:24:19 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:24:19 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:24:19 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:24:19 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:24:19 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:25:11 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:25:11 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:25:11 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:25:11 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:25:11 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:25:11 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      70. t/step: 1.03474e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:26:03 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:26:03 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:26:03 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:26:03 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:26:03 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:26:03 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:26:54 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:26:54 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:26:54 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:26:54 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:26:54 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:26:54 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      71. t/step: 1.03769e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:27:47 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:27:47 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:27:47 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:27:47 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:27:47 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:27:47 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:28:40 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:28:40 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:28:40 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:28:40 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:28:40 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:28:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ # Average timings at MD step      72. t/step: 1.07872e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:29:34 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:29:34 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:29:34 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:29:34 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:29:34 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:29:34 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:30:28 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:30:28 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:30:28 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:30:28 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:30:28 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:30:28 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      73. t/step: 1.07320e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:31:22 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:31:22 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:31:22 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:31:22 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:31:22 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:31:22 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:32:15 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:32:15 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:32:15 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:32:15 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:32:15 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:32:15 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      74. t/step: 1.07470e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:33:09 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:33:09 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:33:09 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:33:09 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:33:09 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:33:09 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:34:03 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:34:03 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:34:03 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:34:03 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:34:03 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:34:03 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      75. t/step: 1.07549e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:34:57 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:34:57 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:34:57 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:34:57 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:34:57 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:34:57 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:35:53 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:35:53 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:35:53 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:35:53 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:35:53 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:35:53 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      76. t/step: 1.11987e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:36:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:36:49 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:36:49 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:36:49 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:36:49 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:36:49 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:37:42 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:37:42 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:37:42 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:37:42 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:37:42 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:37:42 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      77. t/step: 1.07633e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:38:36 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:38:36 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:38:36 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:38:36 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:38:36 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:38:36 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:39:32 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:39:32 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:39:32 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:39:32 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:39:32 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:39:32 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ # Average timings at MD step      78. t/step: 1.11817e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:40:28 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:40:28 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:40:28 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:40:28 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:40:28 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:40:28 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:41:20 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:41:20 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:41:20 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:41:20 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:41:20 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:41:20 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      79. t/step: 1.03633e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:42:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:42:12 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:42:12 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:42:12 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:42:12 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:42:12 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:43:05 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:43:05 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:43:05 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:43:05 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:43:05 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:43:05 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      80. t/step: 1.07417e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:43:59 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:43:59 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:43:59 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:43:59 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:43:59 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:43:59 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:44:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:44:49 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:44:49 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:44:49 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:44:49 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:44:49 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      81. t/step: 9.95904e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:45:39 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:45:39 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:45:39 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:45:39 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:45:39 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:45:39 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:46:30 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:46:30 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:46:30 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:46:30 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:46:30 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:46:30 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      82. t/step: 1.03358e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:47:22 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:47:22 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:47:22 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:47:22 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:47:22 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:47:22 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:48:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:48:12 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:48:12 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:48:12 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:48:12 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:48:12 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      83. t/step: 9.97910e+01
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:49:02 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:49:02 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:49:02 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:49:02 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:49:02 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:49:02 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:49:54 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:49:54 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:49:54 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:49:54 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:49:54 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:49:54 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      84. t/step: 1.03391e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:50:45 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:50:45 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:50:45 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:50:45 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:50:45 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:50:45 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:51:37 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:51:37 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:51:37 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:51:37 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:51:37 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:51:37 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      85. t/step: 1.03526e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:52:29 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:52:29 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:52:29 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:52:29 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:52:29 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:52:29 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:53:21 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:53:21 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:53:21 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:53:21 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:53:21 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:53:21 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      86. t/step: 1.03531e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:54:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:54:12 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:54:12 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:54:12 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:54:12 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:54:12 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:55:11 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:55:11 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:55:11 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:55:11 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:55:11 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:55:11 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      87. t/step: 1.22522e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:56:15 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:56:15 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:56:15 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:56:15 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:56:15 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:56:15 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-09:57:13 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:57:13 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:57:13 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:57:13 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:57:13 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:57:13 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      88. t/step: 1.17716e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-09:58:13 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:58:13 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:58:13 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:58:13 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:58:13 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:58:13 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-09:59:18 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-09:59:18 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-09:59:18 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-09:59:18 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-09:59:18 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-09:59:18 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      89. t/step: 1.30274e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:00:23 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:00:23 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:00:23 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:00:23 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:00:23 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:00:23 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-10:01:21 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:01:21 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:01:21 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:01:21 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:01:21 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:01:21 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      90. t/step: 1.17755e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:02:21 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:02:21 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:02:21 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:02:21 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:02:21 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:02:21 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-10:03:21 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:03:21 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:03:21 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:03:21 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:03:21 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:03:21 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      91. t/step: 1.20898e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:04:22 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:04:22 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:04:22 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:04:22 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:04:22 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:04:22 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-10:05:23 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:05:23 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:05:23 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:05:23 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:05:23 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:05:23 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      92. t/step: 1.21778e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:06:23 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:06:23 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:06:23 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:06:23 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:06:23 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-10:06:23 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-10:07:25 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:07:25 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:07:25 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:07:25 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:07:25 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-10:07:25 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      93. t/step: 1.21938e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:08:25 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:08:25 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:08:25 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:08:25 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:08:25 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:08:25 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-10:09:27 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:09:27 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:09:27 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:09:27 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:09:27 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:09:27 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      94. t/step: 1.21959e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:10:27 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:10:27 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:10:27 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:10:27 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:10:27 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:10:27 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-10:11:33 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:11:33 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:11:33 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:11:33 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:11:33 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:11:33 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      95. t/step: 1.31124e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:12:38 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:12:38 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:12:38 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:12:38 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:12:38 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:12:38 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-10:13:39 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:13:39 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:13:39 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:13:39 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:13:39 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:13:39 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      96. t/step: 1.21078e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:14:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:14:40 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:14:40 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:14:40 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:14:40 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:14:40 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-10:15:43 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:15:43 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:15:43 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:15:43 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:15:43 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:15:43 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step      97. t/step: 1.26115e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:16:46 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:16:46 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:16:46 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:16:46 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:16:46 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:16:46 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-10:17:44 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:17:44 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:17:44 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:17:44 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:17:44 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:17:44 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      98. t/step: 1.17829e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:18:43 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:18:43 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:18:43 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:18:43 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:18:43 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ @SOCKET: 24/06/25-10:18:43 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:19:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:19:40 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:19:40 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:19:40 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:19:40 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:19:40 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ # Average timings at MD step      99. t/step: 1.13700e+02
+ # Interpreting input with dimension length, units ase and cell units ase
+ @SOCKET: 24/06/25-10:20:37 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:20:37 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:20:37 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:20:37 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:20:37 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:20:37 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ @SOCKET: 24/06/25-10:21:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : ('128.178.114.174', 53476))
+ @SOCKET: 24/06/25-10:21:40 Assigning [match] request id    1 to client with last-id    1 (  0/  1 : ('128.178.114.174', 44552))
+ @SOCKET: 24/06/25-10:21:40 Assigning [match] request id    3 to client with last-id    3 (  0/  1 : ('128.178.242.211', 48894))
+ @SOCKET: 24/06/25-10:21:40 Assigning [match] request id    4 to client with last-id    4 (  0/  1 : ('128.178.242.211', 33942))
+ @SOCKET: 24/06/25-10:21:40 Assigning [match] request id    2 to client with last-id    2 (  0/  1 : ('128.178.114.163', 48500))
+ @SOCKET: 24/06/25-10:21:40 Assigning [match] request id    5 to client with last-id    5 (  0/  1 : ('128.178.242.211', 50956))
+ !W!  @SOCKET: Couldn't find readable socket in 60s, will try again
+ # Average timings at MD step     100. t/step: 1.26219e+02
+SOFTEXIT CALLED FROM THREAD <_MainThread(MainThread, started 140316309223232)>  # Finished reading re-run trajectory
+ !W! Soft exit has been requested with message: ' # Finished reading re-run trajectory
+I-PI reports success. Restartable as is: NO.'. Cleaning up.
+ @SOCKET: Shutting down the driver interface.
+ @SOCKET: Shutting down the driver interface.
+ @SOCKET: Shutting down the driver interface.
+ @SOCKET: Shutting down the driver interface.
+ @SOCKET: Shutting down the driver interface.
+ @SOCKET: Shutting down the driver interface.
+Backup performed: RESTART -> #RESTART#0#

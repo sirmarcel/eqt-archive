@@ -1,0 +1,65 @@
+<!-- safe_stride is the frequency at which i-PI makes internal snapshots for restarting -->
+<simulation verbosity='high' threading='false' safe_stride='1'>
+    <ffsocket mode='inet' name='driver' pbc='false'>
+        <latency> 1.00000000e-04 </latency>
+        <address> 128.178.114.174 </address>
+        <port> 15600 </port>
+   </ffsocket>
+   <ffsocket mode='inet' name='driver-aug-i' pbc='false'>
+       <latency> 1.00000000e-04 </latency>
+        <address> 128.178.114.174 </address>
+        <port> 15601 </port>
+   </ffsocket>   
+   <ffsocket mode='inet' name='driver-aug-2' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+        <address> 128.178.114.174 </address>
+            <port> 15602 </port>
+        </ffsocket>
+   <ffsocket mode='inet' name='driver-aug-2i' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+        <address> 128.178.114.174 </address>
+         <port> 15603 </port>
+   </ffsocket>     
+   <ffsocket mode='inet' name='driver-aug-3' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+        <address> 128.178.114.174 </address>
+                <port> 15604 </port>
+   </ffsocket>
+   <ffsocket mode='inet' name='driver-aug-3i' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+        <address> 128.178.114.174 </address>
+                <port> 15605 </port>
+   </ffsocket>
+   <total_steps>200000</total_steps>
+   <output prefix='test-multi'>
+      <trajectory stride='1' filename='pos' format='ase'> positions </trajectory>
+      <trajectory stride='1' filename='for' format='ase'> forces </trajectory>
+      <properties stride='1'> [ step, time, conserved, temperature{kelvin}, kinetic_md, potential, pressure_md ] </properties>
+      <properties stride='1' filename='delta'> [ step, pot_component_raw(0), pot_component_raw(1), pot_component_raw(2), pot_component_raw(3), pot_component_raw(4), pot_component_raw(5) ] </properties>
+      <trajectory stride='1' filename='f-aug-1' format='ase'> forces_component_raw(0) </trajectory>
+      <trajectory stride='1' filename='f-aug-i' format='ase'> forces_component_raw(1) </trajectory>
+      <trajectory stride='1' filename='f-aug-2' format='ase'> forces_component_raw(2) </trajectory>
+      <trajectory stride='1' filename='f-aug-2i' format='ase'> forces_component_raw(3) </trajectory>
+      <trajectory stride='1' filename='f-aug-3' format='ase'> forces_component_raw(4) </trajectory>
+      <trajectory stride='1' filename='f-aug-3i' format='ase'> forces_component_raw(5) </trajectory>
+   </output>
+   <prng>
+      <seed>32123</seed>
+   </prng>
+   <system>
+      <forces> 
+          <force forcefield='driver'></force>
+          <force forcefield='driver-aug-i' weight="1e-20"></force>           <!-- weight=0 disables this except for outputs -->
+          <force forcefield='driver-aug-2' weight="1e-20"></force>
+          <force forcefield='driver-aug-2i' weight="1e-20"></force>         
+          <force forcefield='driver-aug-3' weight="1e-20"></force>
+          <force forcefield='driver-aug-3i' weight="1e-20"></force>
+      </forces>
+      <initialize nbeads='1'>
+        <file mode='ase'> init.xyz </file>
+      </initialize>
+      <motion mode='replay'>
+          <file mode='ase'> nvt-md-sel.xyz </file>
+      </motion>
+  </system>
+</simulation>

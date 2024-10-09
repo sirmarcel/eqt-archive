@@ -1,0 +1,46 @@
+<!-- safe_stride is the frequency at which i-PI makes internal snapshots for restarting -->
+<simulation verbosity='medium' threading='false' safe_stride='10'>
+    <ffsocket mode='unix' name='driver' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+         <address> driver </address>
+   </ffsocket>
+   <ffsocket mode='unix' name='driver-aug' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+         <address> driver-aug </address>
+   </ffsocket>
+   <total_steps>200000</total_steps>
+   <output prefix='mts-md'>
+      <trajectory stride='20' filename='f-aug' format='xyz'> forces_component_raw(1) </trajectory>
+      <properties stride='2' filename='delta'> [ step, pot_component_raw(0), pot_component_raw(1) ] </properties>
+      <trajectory stride='20' filename='for' format='xyz'> forces </trajectory>
+      <properties stride='2'> [ step, time, conserved, temperature{kelvin}, kinetic_md, potential, pressure_md ] </properties>
+      <trajectory stride='20' filename='pos' format='ase'> positions </trajectory>
+      <trajectory stride='20' filename='mom' format='xyz'> momenta </trajectory>
+   </output>
+   <prng>
+      <seed>32123</seed>
+   </prng>
+   <system>
+      <forces> 
+          <force forcefield='driver'>  <mts_weights>[-1,1]</mts_weights> </force>
+          <force forcefield='driver-aug'> <mts_weights>[1,0]</mts_weights> </force>
+      </forces>
+      <initialize nbeads='1'>
+        <file mode='ase'> init-512_h2o.xyz </file>
+        <velocities mode='thermal' units='kelvin'> 300 </velocities>
+      </initialize>
+      <ensemble>
+         <temperature units='kelvin'> 300 </temperature>
+      </ensemble>
+      <motion mode='dynamics'>
+        <fixcom> True </fixcom>
+        <dynamics mode='nvt'>
+            <timestep units='femtosecond'> 5 </timestep>
+            <thermostat mode='svr'>
+               <tau units='femtosecond'> 10 </tau>            
+            </thermostat>
+            <nmts> [1, 10] </nmts>
+        </dynamics>
+      </motion>
+  </system>
+</simulation>

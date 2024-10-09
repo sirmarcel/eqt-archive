@@ -1,0 +1,3 @@
+PET water_0.01_fast_lr_decay_mae / best_val_mae_forces_model_state_dict
+
+"Polished" with fast LR decay

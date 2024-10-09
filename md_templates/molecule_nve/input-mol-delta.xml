@@ -1,0 +1,42 @@
+<!-- safe_stride is the frequency at which i-PI makes internal snapshots for restarting -->
+<simulation verbosity='medium' threading='false' safe_stride='10'>
+    <ffsocket mode='unix' name='driver' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+         <address> driver </address>
+   </ffsocket>
+   <ffsocket mode='unix' name='driver-aug' pbc='false'>
+         <latency> 1.00000000e-04 </latency>
+         <address> driver-aug </address>
+   </ffsocket>   
+   <total_steps>2000000</total_steps>
+   <output prefix='delta-mol'>
+      <trajectory stride='20' filename='pos' format='ase'> positions </trajectory>
+      <trajectory stride='20' filename='mom' format='xyz'> momenta </trajectory>
+      <trajectory stride='20' filename='for' format='xyz'> forces </trajectory>
+      <trajectory stride='20' filename='f-aug' format='xyz'> forces_component_raw(1) </trajectory>
+      <properties stride='20'> [ step, time, conserved, temperature{kelvin}, kinetic_md, potential, pressure_md ] </properties>
+      <properties stride='2' filename='delta'> [ step, pot_component_raw(0), pot_component_raw(1) ] </properties>      
+   </output>
+   <prng>
+      <seed>32123</seed>
+   </prng>
+   <system>
+      <forces> 
+          <force forcefield='driver'></force>
+          <force forcefield='driver-aug' weight="0"></force>           <!-- weight=0 disables this except for outputs -->
+      </forces>
+      <initialize nbeads='1'>
+        <file mode='ase'> init-mol.xyz </file>
+        <velocities mode='thermal' units='kelvin'> 300 </velocities>
+      </initialize>
+      <ensemble>
+         <temperature units='kelvin'> 300 </temperature>
+      </ensemble>
+      <motion mode='dynamics'>
+        <fixcom> True </fixcom>
+        <dynamics mode='nve'>
+            <timestep units='femtosecond'> 0.5 </timestep>
+        </dynamics>
+      </motion>
+  </system>
+</simulation>
