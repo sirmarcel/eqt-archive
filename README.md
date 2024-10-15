@@ -1,10 +1,11 @@
 # Data Archive for "Probing the effects of broken symmetries in machine learning"
 
-This collect the input files, scripts, and data for the publication:
+This collect the input files, scripts, and data for the [publication](https://doi.org/10.1088/2632-2153/ad86a0):
 
 ```
 Title: Probing the effects of broken symmetries in machine learning
 Authors: Marcel F. Langer, Sergey N. Pozdnyakov, and Michele Ceriotti
+DOI: 10.1088/2632-2153/ad86a0
 Publication: TBD
 Preprint: arxiv:2406.17747 (2024)
 ```

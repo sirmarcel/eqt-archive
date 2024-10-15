@@ -1,6 +1,10 @@
 This runs MTS NVT MD for bulk water.
 
-MD is run using i-pi (https://github.com/i-pi/i-pi/) using the PET (https://github.com/spozdn/pet) driver. The `run.sh` script expects the model to be stored in `../model` with the state dict named `model_state_dict`. This can be adapted as needed.
+- `init-512_h2o.xyz`: Starting geometry (512 water molecules)
+- `input-mts.xml`: i-PI input file
+- `run.sh`: Example bash script on how to execute a run
+
+MD is run using i-PI (https://github.com/i-pi/i-pi/) using the PET (https://github.com/spozdn/pet) driver. The `run.sh` script expects the model to be stored in `../model` with the state dict named `model_state_dict`. This can be adapted as needed.
 
 The `polar-fes.py` script generates the orientational distribution, `tcorrelate.py` and `correlate.py` the dynamic and static correlations (respectively). 
 

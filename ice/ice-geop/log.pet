@@ -1,3 +1,0 @@
-/home/michele/lavoro/code/i-pi-cosmo/bin/i-pi-py_driver:159: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
-  send_data(sock, np.float64(pot))
-Received exit message from i-PI. Bye bye!

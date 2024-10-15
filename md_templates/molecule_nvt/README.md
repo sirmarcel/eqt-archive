@@ -1,6 +1,10 @@
 This runs NVT MD for a single water molecule to check angular momentum conservation for an "unconstrained" model. We use multiple time stepping (MTS) to execute the augmented model every 10 timesteps.
 
-MD is run using i-pi (https://github.com/i-pi/i-pi/) using the PET (https://github.com/spozdn/pet) driver. The `run.sh` script expects the model to be stored in `../model` with the state dict named `model_state_dict`. This can be adapted as needed.
+- `init-mol.xyz`: Starting geometry (single water molecule)
+- `input-mol-mts.xml`: i-PI input file
+- `run.sh`: Example bash script on how to execute a run
+
+MD is run using i-PI (https://github.com/i-pi/i-pi/) using the PET (https://github.com/spozdn/pet) driver. The `run.sh` script expects the model to be stored in `../model` with the state dict named `model_state_dict`. This can be adapted as needed.
 
 The `polar-fes.py` script generates the orientational distribution.
 
