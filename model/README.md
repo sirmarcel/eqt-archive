@@ -1,6 +1,6 @@
-# `models/pet_3`
+# `model/`
 
-The `pet_3/` subfolder contains the production model used in the manuscript. (`pet_1` and `pet_2` were intermediate models used for early testing.)
+This subfolder contains the production model used in the manuscript. (Internally named `pet_3`, earlier versions were used for testing.)
 
 It contains the checkpoint output of the PET code, which consists of:
 
@@ -11,4 +11,4 @@ It contains the checkpoint output of the PET code, which consists of:
 - `summary.txt`: Summary metrics
 - `note.txt`: Internal note about the provenance of the model (initialls trained with slow LR decay, then "polished" with rapid LR decay)
 
-The input scripts in the `md_templates` folder expect a folder with these contents.
+The input scripts in the `md_templates` folder expect this folder.
