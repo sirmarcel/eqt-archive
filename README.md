@@ -34,3 +34,5 @@ To download the repository:
 
 - On GitHub, you simply can run `git clone`, provided that [`git-lfs`](https://git-lfs.com) is enabled.
 - On Materials Cloud Archive, the entire contents listed above are provided as a `.zip` file.
+
+The files in this repository are licensed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) license.
