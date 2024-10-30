@@ -5,6 +5,7 @@ This collect the input files, scripts, and data for the [publication](https://do
 ```
 Title: Probing the effects of broken symmetries in machine learning
 Authors: Marcel F. Langer, Sergey N. Pozdnyakov, and Michele Ceriotti
+in Mach. Learn.: Sci. Technol. 5 04LT01
 DOI: 10.1088/2632-2153/ad86a0
 Preprint: arxiv:2406.17747 (2024)
 ```
